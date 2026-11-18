@@ -91,8 +91,8 @@ graphics add-ons you choose to use.
 
 **What you get**
 
-- The game rendered by a 64-bit program, with the same image as before (see
-  [Status](#-status) for how this was checked).
+- The game rendered by a 64-bit program, with the same image as before.
+- 
 - A foundation for 64-bit graphics add-ons that could not exist for a 32-bit
   game before.
 - A single switch (`Mode=Off`) that turns the whole thing off without removing it.
