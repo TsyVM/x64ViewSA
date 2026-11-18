@@ -47,21 +47,6 @@ x64ViewSA client  (d3d9.dll, 32-bit) ═══════════╛
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F1A0F,50:135A31,100:0F1A0F&height=3"/>
 
-## 🔬 Status: what is proven and what is not
-
-Every file below was checked by reading the machine type from its file header,
-not by its name.
-
-| What | Bitness | Ran where | Result |
-|---|---|---|---|
-| `gta_sa.exe` | **32-bit** | — | the game itself; this never changes |
-| SAFX12 / SAon12 `d3d9.dll` | **32-bit** | in game | works, as today |
-| Call census `d3d9.dll` | **32-bit** | in game, in front of SAFX12 | counted every D3D9 call the game makes |
-| Present test, host | **32-bit** | test program (stand-in for the game) | owned the window |
-| Present test, server | **64-bit** | test program | drew into the 32-bit window: windowed, resized, borderless, exclusive fullscreen, all passed |
-| XeSS test (now in SAFX12) | **64-bit** | test program | XeSS upscaling ran on an Intel Arc 140V |
-| **The bridge** (client + server) | — | — | **not written yet** |
-
 So, plainly:
 
 - **Proven:** a 64-bit process can draw into the 32-bit game's window in every
