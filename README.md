@@ -56,8 +56,6 @@ So, plainly:
 - **Provisionally proven:** moving the renderer off the game's thread is worth
   it. With SAFX12, at least 5.1 ms of every 16.2 ms frame is renderer work
   done on the game's thread.
-- **Not yet known:** the real cost of the bridge itself, and how it behaves in
-  SA-MP. Both are measured in the next phase.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F1A0F,50:135A31,100:0F1A0F&height=3"/>
 
