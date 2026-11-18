@@ -94,23 +94,6 @@ Being 64-bit on its own doesn't make anything faster. What the bridge gives:
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F1A0F,50:135A31,100:0F1A0F&height=3"/>
 
-## 🧪 Try the test tools
-
-These are measurement tools, not the mod. Build them with CMake and
-Visual Studio; see [docs/HowTo.md](docs/HowTo.md) for full steps.
-
-| Tool | What it does | Where |
-|---|---|---|
-| **Call census** | A 32-bit `d3d9.dll` that sits in front of your renderer and counts every Direct3D 9 call, lock and read-back, per frame | `tools/census` |
-| **Present test** | A 32-bit window plus a 64-bit program drawing into it, through four display modes, checking the pixels | `tools/spikes/present` |
-
-**Running the census:** with the game closed, rename your current `d3d9.dll`
-to `d3d9_next.dll`, copy the census `d3d9.dll` in, play, then quit normally.
-Results appear in `x64ViewSA_census\` in the game folder. To undo, delete the
-census `d3d9.dll` and rename `d3d9_next.dll` back.
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F1A0F,50:135A31,100:0F1A0F&height=3"/>
-
 ## ⚙️ Configuration
 
 ```ini
