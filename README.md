@@ -24,12 +24,6 @@ to **SAFX12**, which, once it can run as 64-bit behind this bridge, can load
 the 64-bit-only upscalers: DLSS for NVIDIA, FSR 3.1/4 for AMD, XeSS for Intel
 (and XeSS and FSR for everyone).
 
-> [!IMPORTANT]
-> **x64ViewSA is not usable yet.** The bridge itself has not been written.
-> What exists are the feasibility tools that proved it can be built (see
-> [Status](#-status-what-is-proven-and-what-is-not)). Nothing 64-bit has run
-> inside the game so far.
-
 ```
 gta_sa.exe  (32-bit)                         x64ViewSA.exe  (64-bit)
    │  Direct3D 9                                ▲
