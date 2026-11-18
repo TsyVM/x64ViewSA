@@ -113,7 +113,7 @@ census `d3d9.dll` and rename `d3d9_next.dll` back.
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=rect&color=0:0F1A0F,50:135A31,100:0F1A0F&height=3"/>
 
-## ⚙️ Configuration (planned)
+## ⚙️ Configuration
 
 ```ini
 ; x64ViewSA.ini
